@@ -19,4 +19,6 @@ webpack.base.config.js集成
 templates：模板文件打包后可以在html源码中看到内容，不会被打包入js中
 images：网站图片
 
+735249091@qq.com 使用中遇到问题可邮件交流
+
 
