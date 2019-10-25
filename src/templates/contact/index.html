@@ -1,0 +1,37 @@
+${require("../../common/templates/headerTop.html")} ${require("../../common/templates/headerBottom.html")}
+
+<body style="background:#000;position: fixed;height: 100%; width: 100%;overflow: auto;">
+    <div id="app">
+        <header-component>
+        </header-component>
+        <div class="contactBg">
+            <img src="../../images/contactBg.png" alt="">
+        </div>
+
+
+        <div class="foot">
+            <!-- <img src="../../images/footLine.png" class="imgBox"> -->
+            <div class="main pad over">
+                <!-- <div class="footLogo l"></div> -->
+
+                <div class="footR">
+                    <div><img src="../../images/footTel.png">{{$t('common.tel')}}：020-37879612</div>
+                    <div><img src="../../images/footEmail.png">{{$t('common.email')}}：info@dingjust.com</div>
+                    <div style="line-height:0.4rem;">
+                        <img src="../../images/footAddress.png"><span v-html="$t('common.address')"></span>：<span v-html="$t('common.addressValue')"></span>
+                    </div>
+                </div>
+                <div class="footR">
+                    <div><img src="../../images/weibo.png">{{$t('common.weibo')}}：@定制加</div>
+                    <div><img src="../../images/douyin.png">{{$t('common.tikTok')}}：定制加</div>
+                    <div style="line-height:0.4rem;">
+                        <img src="../../images/in.png">{{$t('common.linkedin')}}：<a href="http://www.linkedin.com/company/dingjust">http://www.linkedin  <p class="slot">.com/company/dingjust</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

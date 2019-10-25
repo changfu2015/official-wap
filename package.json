@@ -1,0 +1,24 @@
+{
+    "name": "webpack-wap",
+    "version": "1.0.0",
+    "preview": true,
+    "description": "官网打包脚手架",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "cross-env NODE_ENV=production webpack --config build/webpack.production.config.js",
+        "dev": " cross-env NODE_ENV=dev webpack-dev-server --config build/webpack.dev.config.js"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "cross-env": "^6.0.3",
+        "css-loader": "^3.2.0",
+        "ejs-loader": "^0.3.5",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^4.2.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^1.0.0",
+        "webpack-dev-server": "^3.9.0",
+        "webpack-merge": "^4.2.2"
+    }
+}

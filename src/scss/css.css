@@ -1,0 +1,1167 @@
+@import "./common.css";
+.index .mt10 {
+    margin-top: 1rem;
+}
+
+.index .mt20 {
+    margin-top: 2rem;
+}
+
+.uparrow {
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    bottom: 4rem;
+    left: 50%;
+    margin-left: -0.4rem;
+    -webkit-animation: fadeInDown 1.5s infinite linear;
+}
+
+.pad {
+    padding: 0.3rem;
+}
+
+.mainH {
+    border-left: 3px solid #00A8FF;
+    font-size: 0.32rem;
+    padding-left: 0.2rem;
+    line-height: 0.35rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.mainEng {
+    color: #999999;
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    display: block;
+    line-height: 0.6;
+}
+
+.mar {
+    margin-top: 0.3rem;
+}
+
+.startPro {
+    position: relative;
+}
+
+.detailBt {
+    position: absolute;
+    display: block;
+    border: 1px solid #00A8FF;
+    color: #00A8FF;
+    width: 2.4rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    right: 0.3rem;
+    top: 1.15rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.foot {
+    /* background: #141414; */
+    color: #CCCCCC;
+    font-size: 0.22rem;
+    line-height: 0.6rem;
+    padding: 0 0.3rem;
+}
+
+.foot .main {
+    background: #fff;
+    color: #000;
+    padding: 0.5rem 0.3rem;
+}
+
+.foot .main .slot {
+    margin: 0;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right
+}
+
+.over {
+    overflow: hidden;
+}
+
+.footLogo {
+    background: url(../images/logo.png) no-repeat;
+    margin-top: 0.2rem;
+    width: 1.01rem;
+    height: 0.24rem;
+    background-size: 100% 100%;
+}
+
+.footMenu {
+    margin-left: 0.3rem;
+    width: 1.4rem;
+}
+
+.foot a {
+    color: #CCCCCC
+}
+
+.footR a {
+    color: #000;
+}
+
+.footR {
+    width: 3.8rem;
+    margin: auto;
+    padding-bottom: 0.5rem;
+}
+
+.footR>div {
+    margin-bottom: 0.2rem;
+}
+
+.footR .slot {
+    padding-left: 1.2rem;
+}
+
+.footR img {
+    width: 0.35rem;
+    margin-right: 0.2rem;
+    vertical-align: middle
+}
+
+.cir {
+    position: relative;
+    background: url(../images/circle.png) no-repeat;
+    background-size: 100% 100%;
+    width: 6.26rem;
+    height: 6.26rem;
+    margin: 0.6rem auto;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    -webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;
+    padding: 0.05rem;
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 1.8rem;
+    left: 2.65rem;
+}
+
+.cirMain {
+    position: absolute;
+    left: 1.35rem;
+    top: 3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    width: 3.6rem;
+}
+
+.indCp {
+    /* margin: 0.3rem auto; */
+    margin: 0.8rem auto 0;
+    width: 90%
+}
+
+.indCp li {
+    min-height: 0.56rem;
+    height: auto;
+    line-height: 0.56rem;
+    font-size: 0.28rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.indCp li img {
+    width: 0.56rem;
+    height: 0.56rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+
+.indCp li .blue {
+    color: #00A8FF;
+    margin-right: 0.2rem;
+    /* width: 0.6rem; */
+    /* display: block; */
+    /* float: left; */
+}
+
+.desc {
+    font-size: 0.24rem;
+    color: #fff;
+    width: 80%;
+    left: 10%;
+    bottom: 2.7rem;
+    position: absolute;
+}
+
+.blue {
+    color: #00A8FF
+}
+
+.team {
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+
+.team img {
+    width: 2.16rem;
+    height: 2.88rem;
+    float: left;
+}
+
+.teamMain {
+    float: right;
+    width: 4.4rem;
+}
+
+.teamH {
+    font-size: 0.28rem;
+}
+
+.teamH span {
+    font-size: 0.24rem;
+    color: #999999;
+    margin-left: 0.2rem;
+}
+
+.teamDesc {
+    margin-top: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    color: #ccc;
+}
+
+.case {
+    position: relative;
+}
+
+.case .imgBox {
+    display: none
+}
+
+.case .active {
+    display: block
+}
+
+
+/* 
+.case .more {
+    position: absolute;
+    display: block;
+    width: 0.64rem;
+    height: 0.64rem;
+    right: 0.3rem;
+    bottom: 0.5rem;
+} */
+
+.case .more img {
+    width: 100%;
+}
+
+.proList {
+    box-shadow: 0px 3px 8px 0px rgba(51, 51, 51, 0.15);
+    border-radius: 7px;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    height: 2.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.proList .proTite1 {
+    text-align: center;
+    color: #0FA9F9;
+    font-size: 0.28rem;
+}
+
+.proList .text {
+    color: #333333;
+    font-size: 0.29rem;
+    margin: 0.5rem 0;
+}
+
+.proTite2 {
+    color: #999999;
+    font-size: 0.22rem;
+}
+
+.proPrice {
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0.3rem;
+}
+
+.proPrice .blue {
+    font-size: 0.64rem;
+}
+
+.proPrice .proTite2 {
+    font-size: 0.24rem;
+}
+
+.proBuy {
+    position: absolute;
+    bottom: -0.4rem;
+    /* right: 50%; */
+    display: block;
+    color: #fff;
+    background: #00A8FF;
+    box-shadow: 0px 4px 6px 0px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    font-size: 0.35rem;
+    width: 2.6rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    left: 50%;
+    margin-left: -1.3rem;
+}
+
+.textMainBox {
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+}
+
+
+/* .textBox {
+    display: flex;
+} */
+
+.textMain .title {
+    margin-top: 0;
+}
+
+.textMain .textP {
+    color: #CCCCCC;
+}
+
+.textMainBox .title-big {
+    font-size: 0.32rem;
+    text-align: center;
+    color: #00A8FF;
+    font-weight: 500;
+}
+
+.textMainBox .textMain {
+    flex: 1;
+}
+
+.textMainBox .num {
+    font-size: 0.55rem;
+    color: #00A8FF;
+    font-weight: bold;
+    margin-right: 0.2rem;
+    margin-top: 0.15rem;
+}
+
+.textP {
+    text-indent: 0.3rem;
+    color: #CCCCCC;
+}
+
+.hui {
+    color: #999999;
+    line-height: 0.6rem;
+}
+
+.hui-title {
+    margin: 0.5rem 0;
+}
+
+.accordion .link {
+    height: 1.08rem;
+    line-height: 1.08rem;
+    font-size: 0.32rem;
+    background: url(../images/arrow-close.png) 6.2rem center no-repeat #181818;
+    text-indent: 0.3rem;
+    background-size: 0.4rem 0.36rem;
+    margin-bottom: 0.4rem;
+    cursor: pointer
+}
+
+.accordion li .submenu {
+    display: none;
+    padding-bottom: 0.8rem;
+}
+
+.accordion li.open .submenu {
+    display: block
+}
+
+.accordion li.open .link {
+    background: url(../images/arrow-open.png) 6.2rem center no-repeat #00A8FF;
+    background-size: 0.36rem 0.4rem;
+}
+
+.caseH {
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+
+.caseMain {
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #CCCCCC;
+}
+
+.textRight {
+    text-align: right
+}
+
+.indexFont1 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 4.5rem;
+    text-align: center;
+    font-size: 0.56rem;
+    font-weight: bold;
+    animation: fadeInDown .5s .7s ease both;
+}
+
+.indexFont2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 5.3rem;
+    text-align: center;
+    font-size: 0.48rem;
+    animation: fadeInUp .5s .7s ease both;
+}
+
+.indexBanner {
+    position: relative;
+}
+
+.indexLogo {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 2.5rem;
+    color: #828182;
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+}
+
+.indexLogo img {
+    height: 0.4rem;
+    margin-left: 0.3rem;
+}
+
+.indexLogo span {
+    margin-left: 0.1rem;
+}
+
+.relat {
+    position: relative;
+    /* padding-top: 0.2rem; */
+}
+
+.chooseBlue {
+    font-size: 0.28rem;
+    color: #00A8FF;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+.chooseFont {
+    font-size: 0.28rem;
+    position: absolute;
+    top: 1rem;
+    left: 0.3rem;
+    line-height: 0.6rem;
+}
+
+.start,
+.start2 {
+    position: absolute;
+    font-size: 0.28rem;
+    left: 0.2rem;
+    top: 0.7rem;
+    line-height: 0.6rem;
+}
+
+.start2 {
+    left: 1.8rem;
+}
+
+.hzhb {
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0.3rem;
+    font-size: 0.28rem;
+}
+
+.hzhbDate {
+    color: #CCCCCC;
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    display: block;
+}
+
+.aboutFont {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 3rem;
+    text-align: center;
+    font-size: 0.56rem;
+    font-weight: bold;
+}
+
+.caseDiv {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.3rem;
+    color: #fff;
+}
+
+.caseDiv img {
+    width: 1.16rem;
+    margin-bottom: 0.1rem;
+}
+
+.caseDiv .bxn-logo {
+    width: 3rem;
+    margin-bottom: -0.3rem;
+}
+
+.caseFont1 {
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+
+.caseFont2 {
+    font-size: 0.24rem;
+}
+
+.botFont {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 1.8rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    text-align: center
+}
+
+.botFontEng {
+    font-size: 0.28rem;
+    font-weight: normal;
+}
+
+.proBan {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 1.6rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    text-align: center
+}
+
+.proBanEng {
+    font-size: 0.48rem;
+    font-weight: normal;
+}
+
+.caseBanDiv {
+    position: absolute;
+    width: 6.3rem;
+    text-align: center;
+    left: 50%;
+    margin-left: -3.15rem;
+    top: 3rem;
+}
+
+.caseBanDiv img {
+    width: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.caseBanFont1 {
+    font-size: 0.56rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.caseBanFont2 {
+    font-size: 0.24rem;
+    text-align: left;
+}
+
+.cpFont1 {
+    position: absolute;
+    left: 0.3rem;
+    top: 0.5rem;
+    font-size: 0.32rem;
+    color: #0292DE;
+    font-weight: bold;
+}
+
+.cpFont2 {
+    position: absolute;
+    left: 0.3rem;
+    top: 1.1rem;
+    font-size: 0.28rem;
+}
+
+.cpFont3 {
+    position: absolute;
+    left: 0.3rem;
+    top: 1.5rem;
+    font-size: 0.22rem;
+    color: #999999;
+}
+
+.cpFont4 {
+    position: absolute;
+    left: 0.3rem;
+    top: 1.9rem;
+    font-size: 0.24rem;
+    width: 4.12rem;
+}
+
+.cpLine {
+    position: absolute;
+    width: 2.4rem;
+    height: 0.8rem;
+    border-top: 2px solid #15A1F2;
+    border-right: 2px solid #15A1F2;
+    left: 1.8rem;
+    top: 0.6rem;
+}
+
+
+/* 服务 */
+
+.textBox {
+    /* padding-left: 0.3rem; */
+    /* padding-top: 0.3rem; */
+    margin-top: 0.7rem;
+    /* display: flex; */
+    /* padding-bottom: 0.5rem; */
+}
+
+.textBox .title {
+    font-size: 0.26rem;
+    color: #0292DE;
+    /* font-weight: bold; */
+    margin: 0 0 0;
+}
+
+.textBox .title span {
+    color: #000;
+}
+
+.disFlex {
+    display: flex;
+}
+
+.textBox .enText {
+    font-size: 0.32rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+
+.textBox>.text {
+    color: #7881A4;
+    /* margin: 0.1rem 0; */
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.textBox>.text::before {
+    display: block;
+    content: '';
+    float: left;
+    width: 0.4rem;
+    height: 0.3rem;
+    margin-top: 0.05rem;
+    background-repeat: no-repeat;
+    background-image: url(../images/contactIcon.png);
+    background-size: 78%;
+}
+
+.contactBg {
+    padding: 0.3rem 0.3rem 0;
+    margin-top: 0.88rem;
+}
+
+.contactBg img {
+    width: 100%;
+    height: auto;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.displayFlex .en {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #00A8FF;
+    margin-right: 0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-top: 0.06rem;
+}
+
+.displayFlex .text {
+    padding: 0.1rem;
+    background-color: #6a6a6a75;
+    border-radius: 0.1rem;
+    width: 5rem;
+}
+
+.successfulCase .main {
+    width: 100%;
+}
+
+.successfulCase .case {
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.successfulCase .case .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.successfulCase .case .cover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.main .hover:hover .cover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.successfulCase .case .caseDiv {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+}
+
+.caseDiv .more {
+    width: 33%;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    border: 1px solid #fff;
+    margin: 0.5rem auto 0;
+    line-height: 0.8rem;
+    border-radius: 1px;
+}
+
+.caseDiv img {
+    width: 2rem;
+}
+
+.caseDiv .caseFont1 {
+    display: block;
+    font-size: 0.4rem;
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+
+.caseDiv .caseFont2 {
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+
+.caseDetil {
+    overflow-x: hidden;
+}
+
+.caseDetil .white {
+    background-color: #fff!important;
+    /* margin-top: 1.3rem; */
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.caseDetil .text {
+    color: #666666;
+}
+
+.caseDetil .caseH {
+    line-height: 0.7rem;
+    color: #000;
+}
+
+.caseDetil .caseH p {
+    margin: 0;
+}
+
+.caseDetil .bbl-logo {
+    width: 100%;
+    height: auto;
+    margin: 0.4rem auto 0.6rem;
+    display: block;
+}
+
+.caseDetil .caseH .title-line {
+    display: block;
+    width: 0.8rem;
+    height: 0.08rem;
+    background-color: #00A8FF;
+    margin-top: 0.25rem;
+    margin-bottom: 0.6rem;
+}
+
+.caseDetil .pad {
+    padding: 0;
+}
+
+.caseDetil .pd3 {
+    padding: 0.3rem;
+    background-color: #000;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.caseDetil .caseH {
+    font-size: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.caseDetil .bxn-cj {
+    width: 70%;
+    margin: 2rem auto 2.5rem;
+}
+
+.caseDetil {
+    background: #000;
+}
+
+.caseDetil .intersperse {
+    position: absolute;
+    margin-left: -1px;
+    width: 2px;
+    left: 50%;
+    top: -0.4rem;
+}
+
+.caseDetil .caseBanFont1 {
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    font-size: 0.43rem;
+}
+
+.caseDetil .intersperse .up {
+    position: relative;
+    display: block;
+    width: 1px;
+    height: 0.4rem;
+    background-color: #fff;
+}
+
+.caseBanDiv .wor-logo {
+    width: 45%;
+    margin-bottom: 0;
+}
+
+.caseDetil .intersperse .up span {
+    width: 3px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    background-color: #fff;
+}
+
+.caseDetil .intersperse .below {
+    position: relative;
+    display: block;
+    width: 1px;
+    height: 0.4rem;
+    background-color: #000;
+}
+
+.caseDetil .intersperse .below span {
+    width: 3px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -9px;
+    left: -1px;
+    background-color: #000;
+}
+
+.caseDetil .wor-logo2 {
+    width: 80%;
+    margin: 1.5rem auto 2rem;
+    display: block;
+}
+
+.detail2 .title .big {
+    font-size: 0.4rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.detail2 {
+    position: relative;
+    padding: 1rem 0.4rem;
+    width: 100%;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+.colorFF {
+    color: #fff;
+}
+
+.detail2 .title {
+    position: relative;
+    text-align: center;
+    margin-top: 1rem
+}
+
+.detail2 .title p {
+    margin: 0;
+}
+
+.detail2 .title .small {
+    font-size: 0.2rem;
+    color: #000;
+    margin-top: 0.2rem;
+}
+
+.product-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-explain-box {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.product-box .product-title {
+    position: relative;
+    /* padding: 0 0.4rem; */
+    margin-top: 2rem;
+}
+
+.product-title p {
+    margin: 0;
+}
+
+.detail2 .title .en {
+    position: absolute;
+    top: -0.2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.34rem;
+    color: #0000001c;
+}
+
+.product-box .product-title .product-num {
+    /* margin-top: 1.5rem; */
+    font-size: 1.3rem;
+    color: #F3F1F1;
+    position: absolute;
+    top: -0.9rem;
+    z-index: 0;
+}
+
+.product-box .product-title .product-ch {
+    color: #000;
+    font-size: 0.4rem;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.product-box .product-title .product-line {
+    margin-top: 0.2rem;
+    width: 0.8rem;
+    height: 0.04rem;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background-color: #00A8FF;
+}
+
+.product-box .product-text {
+    color: #999999;
+    /* padding: 0 0.4rem; */
+    margin-top: 0.4rem;
+}
+
+.product-box .product-img {
+    width: 95%;
+    height: auto;
+    margin: 0.8rem auto 0;
+    display: block;
+}
+
+.product-box .product-img1 {
+    width: 90%;
+    height: auto;
+    margin: 0.8rem auto 0;
+    display: block;
+    position: relative;
+    margin-left: 0.4rem;
+    z-index: 1;
+}
+
+.product-box .product-bg1 {
+    width: 10rem;
+    height: 50%;
+    margin: 0.8rem auto 0;
+    display: block;
+    background: #4bb8f1;
+    position: absolute;
+    z-index: 0;
+    top: 0.5rem;
+    left: 0;
+}
+
+.product-box .product-img2 {
+    width: 78%;
+    height: auto;
+    margin: 0.8rem auto 0;
+    display: block;
+    position: relative;
+    margin-right: 0.4rem;
+    z-index: 1;
+}
+
+.product-box .product-bg2 {
+    width: 10rem;
+    height: 54%;
+    margin: 0.8rem auto 0;
+    display: block;
+    background: #4bb8f1;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.product-box .product-img-box {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.mt3 {
+    margin-top: 3rem!important;
+}
+
+.product-explain-box .explain-line {
+    width: 0.035rem;
+    height: 0.3rem;
+    background-color: #00A8FF;
+    display: inline-block;
+    margin-right: 0.14rem;
+    display: inline-block;
+    margin-top: -0.1rem;
+    vertical-align: middle;
+}
+
+.product-explain-box .explain-title {
+    color: #333333;
+    font-size: 0.33rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+
+.product-explain-box .explain-text {
+    color: #666666;
+    /* line-height: 0.7rem; */
+}
+
+.mb2 {
+    margin-bottom: 2rem;
+}
+
+.product .productMain {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #dedede40;
+    padding-top: 0.5rem;
+}
+
+
+/* 改版 */
+
+.herder {
+    width: 100%;
+    height: auto;
+}
+
+.laguageBt {
+    display: block;
+    margin: 0;
+    padding-left: 0.3rem;
+}
+
+.dh-transition {
+    opacity: 1;
+    transform: translate(0px) scale(1.6);
+    -webkit-transition: translate(0px) scale(1.6);
+}
+
+.dh-leave {
+    opacity: 0;
+    transform: translateX(90px) scale(1.1);
+    -webkit-transform: translateX(90px) scale(1.1);
+    background: darkseagreen;
+}
+
+.dh-enter {
+    opacity: 1;
+    transform: translateY(90px) scale(1.1);
+    -webkit-transform: translateY(90px) scale(1.1);
+    background: silver;
+}

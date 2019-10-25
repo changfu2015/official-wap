@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #090909;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fff,
+.fff a {
+    color: #fff;
+}
+
+.imgBox {
+    width: 100%;
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top,
+.top2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: url(../images/toplogo.png) center center no-repeat #fff;
+    background-size: auto 0.3rem;
+    width: 100%;
+    z-index: 9998;
+}
+
+.topMenu,
+.topMenu2 {
+    width: 0.88rem;
+    height: 0.88rem;
+    background: url(../images/menu-ico.png) no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+    position: relative;
+    cursor: pointer
+}
+
+.top2 {
+    background: url(../images/toplogo2.png) center center no-repeat #000;
+    background-size: auto 0.3rem;
+    z-index: 9999;
+}
+
+.topMenu2 {
+    background: url(../images/menu-ico2.png) no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+}
+
+#topli {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    top: 0.88rem;
+    z-index: 9999;
+}
+
+#topli li {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-indent: 0.3rem;
+}
+
+#topli li a:active {
+    color: #999;
+}
+
+.mainbox {
+    margin-top: 0.88rem;
+}

@@ -1,0 +1,100 @@
+${require("../../common/templates/headerTop.html")} ${require("../../common/templates/headerBottom.html")}
+
+<body class="index">
+    <div id="app">
+        <header-component>
+        </header-component>
+        <div class="mainbox indexBanner">
+            <img src='../../images/banner1.png' class="imgBox">
+            <div class="indexFont1" v-html="$t('index.bannerTitle')"></div>
+            <div class="indexFont2" v-text="$t('index.bannerTitleEn')"></div>
+            <div class="indexLogo">
+                <!-- <span class="l">合作伙伴:</span> -->
+                <img src='../../images/logo1.png' />
+
+                <img src='../../images/logo2.png' />
+                <img src='../../images/logo3.png' />
+                <img src='../../images/logo4.png' />
+                <img src='../../images/logo5.png' />
+            </div>
+            <img src='../../images/arrow.png' class="uparrow">
+        </div>
+        <div class="pad mt10" style="padding-top:0;">
+            <div class="mainH" style="margin:0;">
+                <span v-text='$t("index.titleCh1")'></span><br/><span class="mainEng"><span v-text='$t("index.titleEn1")'></span></span>
+            </div>
+            <div class="cir">
+                <div class="circle"><img src='../../images/caba.png' class="imgBox"></div>
+                <div class="cirMain">
+                    <span class="blue"><span v-text='$t("index.productsExplain4-1")'></span></span><br/> <span v-text='$t("index.productsExplain4-2")'></span>
+                    <br/><span v-text='$t("index.productsExplain4-3")'></span>
+                </div>
+            </div>
+            <ul class="indCp">
+                <li class="displayFlex">
+                    <!-- <img src='../../images/C2M.png'> -->
+                    <span class="en">M</span> <span class="text" v-html="$t('index.productsExplain2')"></span>
+                </li>
+                <li class="displayFlex">
+                    <!-- <img src='../../images/B2B.png'> -->
+                    <span class="en">B</span> <span class="text" v-html="$t('index.productsExplain3')"></span>
+                </li>
+                <li class="displayFlex">
+                    <!-- <img src='../../images/C2B.png'> -->
+                    <span class="en">C</span> <span class="text" v-html="$t('index.productsExplain1')"></span>
+                </li>
+            </ul>
+
+            <div class="mainH mt20">
+                <span v-text='$t("index.titleCh2")'></span><br/><span class="mainEng"> <span v-text='$t("index.titleEn2")'></span></span>
+            </div>
+            <div class="mar relat">
+                <img src='../../images/choose1.png' class="imgBox">
+                <div class="chooseBlue" v-text='$t("index.chooseTitle1")'></div>
+                <div class="chooseFont">
+                    • <span v-text='$t("index.chooseExplain1-1")'></span><br/> • <span v-text='$t("index.chooseExplain1-2")'></span><br/> • <span v-text='$t("index.chooseExplain1-3")'></span>
+                </div>
+            </div>
+
+            <div class="mar relat">
+                <img src='../../images/choose2.png' class="imgBox">
+                <div class="chooseBlue" v-text='$t("index.chooseTitle3")'></div>
+                <div class="chooseFont">
+                    • <span v-text='$t("index.chooseExplain3-1")'></span><br/> • <span v-text='$t("index.chooseExplain3-2")'></span><br/> • <span v-text='$t("index.chooseExplain3-3")'></span>
+                </div>
+            </div>
+
+            <div class="mar relat">
+                <img src='../../images/choose3.png' class="imgBox">
+                <div class="chooseBlue" v-text='$t("index.chooseTitle2")'></div>
+                <div class="chooseFont">
+                    • <span v-text='$t("index.chooseExplain2-1")'></span><br/> • <span v-text='$t("index.chooseExplain2-2")'></span><br/> • <span v-text='$t("index.chooseExplain2-3")'></span>
+                </div>
+            </div>
+
+            <div class="mainH mt20">
+                <span v-text='$t("index.titleCh3")'></span><br/><span class="mainEng"><span v-text='$t("index.titleEn3")'></span></span>
+            </div>
+            <div class="mar relat">
+                <img src='../../images/hzhb1.png' class="imgBox">
+                <div class="hzhb" v-text='$t("index.partnerExplain1")'>
+
+                </div>
+            </div>
+            <div class="mar relat">
+                <img src='../../images/hzhb2.png' class="imgBox">
+                <div class="hzhb" v-text='$t("index.partnerExplain2")'>
+                </div>
+            </div>
+            <div class="mar relat">
+                <img src='../../images/partner4.jpg' class="imgBox">
+                <div class="hzhb" v-text=' $t( "index.partnerExplain3") '>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
